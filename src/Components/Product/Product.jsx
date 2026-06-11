@@ -7,12 +7,15 @@ const Product = ({ product }) => {
 
     return (
         <div className="card bg-base-100 shadow-2xl">
+
+            {/* Figure  */}
             <figure className="p-5">
                 <img
                     src={product_image}
                     className="h-[180px]"
                     alt="Shoes" />
             </figure>
+
             <div className="card-body">
                 <h2 className="card-title">{product_title} </h2>
                 <h3>price: {price} </h3>
