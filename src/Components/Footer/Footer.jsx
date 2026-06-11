@@ -1,9 +1,9 @@
 import ghlogo from '../../assets/gadget_heaven_logo.jpeg'
 
-
 const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+
             <aside>
                 <img className='h-16 rounded-2xl' src={ghlogo} alt="" />
                 <p>
@@ -12,6 +12,7 @@ const Footer = () => {
                     Providing reliable tech since 2025
                 </p>
             </aside>
+
             <nav>
                 <h6 className="footer-title">Services</h6>
                 <a className="link link-hover">Branding</a>
