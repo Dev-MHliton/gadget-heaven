@@ -4,13 +4,12 @@ import { CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
 
+    // Nav-links setup 
     const links = <>
-
         <li className="text-white"> <NavLink to={'/'}>Home</NavLink> </li>
         <li className="text-white"> <NavLink to={'/statistics'}>Statistics</NavLink> </li>
         <li className="text-white"> <NavLink to={'/dashboard'}>Dashboard</NavLink> </li>
     </>
-
 
     return (
 
@@ -56,9 +55,7 @@ const Navbar = () => {
                 <button className="text-white font-light justify-items-center" ><CiHeart size={24} /></button>
 
             </div>
-
         </div>
-
 
     );
 };
