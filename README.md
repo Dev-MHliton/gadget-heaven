@@ -84,10 +84,11 @@ src/
 ├── utils/
 ├── App.jsx
 └── main.jsx
+```
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 ### Clone the Repository
 
